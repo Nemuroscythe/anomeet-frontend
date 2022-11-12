@@ -1,3 +1,26 @@
+# Explication pour la découverte du projet
+
+**src/App.js** est notre point d'entrée dans l'application, c'est ici que vous pouvez trouver ce que nous afficherons dans l'explorateur.
+
+## public
+Le dossier public est un dossier qui contient des configurations, il ne faut rien y ajouter à moins de savoir ce que l'on fait. Néanmoins on peut y trouver le véritable fichier html que react peuplera au lancement : **index.html**.
+
+## src
+
+Nos trouvons ici notre fichier **App.js** qui se trouve être notre point d'entrée dans l'application et qui peuplera notre index.html. Dans celui-ci, nous appelerons nos components react que l'on peut voir comme des parties de pages. Des routes, crééent à l'aide de "**react-router-dom**" nous permettent de masquer ou d'afficher des components en fonction de l'addresse url : en effet, notre application ne se compose en réalité que d'une seule page modifiée en fonction de l'addresse url.
+
+### api
+Ce dossier contient notre client **axios** ainsi que les services nous permettant d'exécuter des requêtes HTTP à notre backend python.
+
+### component
+Ce dossier contient nos components react, ses fichiers se doivent d'importer React sous formes : `import React from "react";`. Il est également idéal que d'en faire une fonction que l'on exportera par défaut
+
+### model
+Ce dossier est plus facultatif et nous permet de créer différentes classes que nous utiliserons, nottamment pour la valeur de retour de nos appel HTTP
+
+>Je conseille vivement de suivre les 2 premiers modules sur react de sololearn(gratuit) : https://www.sololearn.com/learning/1097
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
